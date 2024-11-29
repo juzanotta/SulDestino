@@ -52,8 +52,10 @@ body {
 }
 
 .grid_locais {
+  padding: 0em .2em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 2em;
+  row-gap: 3em;
+  column-gap: 2em;
 }

@@ -15,11 +15,12 @@
 
 .sm_container {
     display: flex;
-
+    gap: 1em;
 }
 
 .sm_conteudo {
     padding: 2em 0em;
+
 } 
 
 .sm_nome {
@@ -41,7 +42,7 @@
 }
 
 .sm_loc_texto {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 500;
 }
 

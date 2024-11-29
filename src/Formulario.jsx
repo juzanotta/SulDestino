@@ -31,7 +31,7 @@ function Formulario() {
                     <hr className='form_barra' />
                 </div>
 
-                <form action="filtro">
+                <form className="filtro">
                     <div className='campo'>
                         <label htmlFor="tipo" className='form_campo_titulo'>Tipo de viagem</label>
                         <div className='form_campo_botoes'>
