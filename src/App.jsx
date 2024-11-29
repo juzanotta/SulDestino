@@ -46,7 +46,6 @@ function App() {
         <div className='grid_locais'>
           {listaLocais}
         </div>
-        {/* <Card /> */}
 
       </main>
       <Conheca />

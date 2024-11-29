@@ -5,7 +5,6 @@ import './SaibaMais.css'
 function SaibaMais({ local = {}, locais, setLocais }) {
     const [favorito, setFavorito] = useState('./vazio.png');
     const { register, handleSubmit, reset } = useForm()
-    // const [comentarios, setComentarios] = useState(local.comentarios ||[])
 
     function favoritar() {
         const novoFavorito = !local.favorito

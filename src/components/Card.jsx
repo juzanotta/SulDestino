@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import './Card.css'
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -62,14 +61,7 @@ export function Card({ local, locais, setLocais }) {
                 <img src={local.foto} className="card_foto" />
                 <div className="card_conteudo">
                     <div className="card_nome_fav">
-                    <h2 onClick={open_saibaMais} className="card_nome">{local.nome}</h2>
-                        {/* <h2>{<Link to='/saibamais' className="card_nome"
-                            key={local.id}
-                            local={local}
-                            locais={locais}
-                            setLocais={setLocais}>
-                            {local.nome}
-                        </Link>}</h2> */}
+                        <h2 onClick={open_saibaMais} className="card_nome">{local.nome}</h2>
                         <div className="card_buttons">
                             <img src="./trash.png" onClick={deletar} className="card_trash" />
                             <img src={favorito} onClick={favoritar} {...register('favorito')} className="card_coracao" />
@@ -79,17 +71,16 @@ export function Card({ local, locais, setLocais }) {
                         <img src="./loc.png" className="loc_img" />
                         <p className="loc_texto">{local.cidade}</p>
                     </div>
-                    {/* <p className="card_desc">Descrição do Lugar</p> */}
                     <div className="card_pc">{palavrasChave()}</div>
 
                 </div>
             </div>
             <Modal open={openSM} onClose={() => setOpenSM(false)} center>
-                <SaibaMais 
-                key={local.id}
-                local={local}
-                locais={locais}
-                setLocais={setLocais}/>
+                <SaibaMais
+                    key={local.id}
+                    local={local}
+                    locais={locais}
+                    setLocais={setLocais} />
             </Modal>
         </div>
     )

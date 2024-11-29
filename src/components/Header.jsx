@@ -34,7 +34,6 @@ export function Header({ local, locais, setLocais }) {
             <Modal open={open} onClose={() => setOpen(false)} center>
                 <NovoLocal
                     local={local}
-                    // key={local.id}
                     locais={locais}
                     setLocais={setLocais}
                     setOpen={setOpen}

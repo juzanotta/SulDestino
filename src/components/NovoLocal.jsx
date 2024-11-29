@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form"
 import './NovoLocal.css'
 
-export function NovoLocal( {local, locais, setLocais, setOpen} ) {
+export function NovoLocal({ locais, setLocais, setOpen }) {
     const { register, handleSubmit, reset } = useForm();
 
     function salvaLocal(data) {
@@ -23,7 +23,7 @@ export function NovoLocal( {local, locais, setLocais, setOpen} ) {
             method: "POST",
             body: JSON.stringify(novo),
         })
-        
+
         reset()
         setOpen(false)
     }
@@ -77,17 +77,11 @@ export function NovoLocal( {local, locais, setLocais, setOpen} ) {
                     <label className="radio_label">O que oferece</label>
                     <div className="radio_campos">
                         <input type="checkbox" id="oferece" value='descanso' {...register('oferece')} className="radio_input" />Descanso &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='gastronomia' {...register('oferece')} className="radio_input" />Gastronomia &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='cultura' {...register('oferece')} className="radio_input" />Cultura &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='atividade' {...register('oferece')} className="radio_input" />Atividades &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='trilha' {...register('oferece')} className="radio_input" />Trilhas &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='cascata' {...register('oferece')} className="radio_input" />Cascatas &nbsp;&nbsp;
-
                         <input type="checkbox" id="oferece" value='paisagem' {...register('oferece')} className="radio_input" />Paisagens &nbsp;&nbsp;
                     </div>
                 </p>
