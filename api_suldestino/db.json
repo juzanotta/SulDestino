@@ -1,0 +1,76 @@
+{
+  "locais": [
+    {
+      "id": "b6f2",
+      "nome": "Local 2",
+      "cidade": "Cidade 2",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGncBdaOAbOIwoEdbgH4MH4G92HQNgfyJqxQ&s",
+      "descricao": "cidade 2",
+      "tipo": [
+        "amigos"
+      ],
+      "dias": [
+        "5-7"
+      ],
+      "oferece": [
+        "descanso",
+        "trilha"
+      ],
+      "comentario": "",
+      "favorito": true
+    },
+    {
+      "id": "f08f",
+      "nome": "Local 1",
+      "cidade": "Cidade 1",
+      "foto": "https://i.pinimg.com/originals/66/8a/0d/668a0d960e23f077004dd118ff85f853.jpg",
+      "descricao": "cidade 1",
+      "tipo": [
+        "familia"
+      ],
+      "dias": [
+        "5-7 dias"
+      ],
+      "oferece": [
+        "gastronomia",
+        "atividade"
+      ],
+      "comentario": "",
+      "favorito": false
+    },
+    {
+      "id": "dbee",
+      "nome": "Local 4",
+      "cidade": "Cidade 4",
+      "foto": "https://i.pinimg.com/originals/66/8a/0d/668a0d960e23f077004dd118ff85f853.jpg",
+      "descricao": "local 4",
+      "tipo": [
+        "casal"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "gastronomia",
+        "trilha"
+      ],
+      "comentario": "",
+      "favorito": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
