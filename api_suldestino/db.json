@@ -16,7 +16,7 @@
         "descanso",
         "trilha"
       ],
-      "comentario": "",
+      "comentarios": [],
       "favorito": true
     },
     {
@@ -35,7 +35,7 @@
         "gastronomia",
         "atividade"
       ],
-      "comentario": "",
+      "comentarios": [],
       "favorito": false
     },
     {
@@ -54,7 +54,7 @@
         "gastronomia",
         "trilha"
       ],
-      "comentario": "",
+      "comentarios": [],
       "favorito": false
     }
   ],
