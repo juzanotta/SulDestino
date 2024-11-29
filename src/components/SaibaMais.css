@@ -73,7 +73,7 @@
     justify-content: space-between;
 }
 
-form {
+.sm_form {
     display: flex;
     align-items: center;
     gap: 1.3em;
@@ -91,7 +91,7 @@ form {
 }
 
 .sm_textarea {
-    height: 4.5em;
+    height: 5.5em;
 }
 
 .sm_fav {
@@ -166,7 +166,7 @@ form {
 }   
 
 .comentario_profile {
-    width: 1.7em;
+    width: 1.9em;
 }
 
 .comentario_conteudo {
@@ -174,9 +174,10 @@ form {
 
 .comentario_nome {
     font-weight: 600;
-    
+    font-size: 1em;
+    padding-bottom: .2em;
 }
 
 .comentario_coment {
-
+    font-size: 1em;
 }

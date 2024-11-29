@@ -2,16 +2,13 @@ import { useState, useEffect } from 'react'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
 import './Sugestoes.css'
+import { Card } from './components/Card'
 import { useLocation } from 'react-router-dom'
 
 function Sugestoes() {
-    const [locais, setLocais] = useState([])
-    const location = useLocation()
-    const botoesMarcados = location.state?.botoesMarcados || []
-
-    useEffect(() => {
-        sugereLocal();
-    }, [botoesMarcados]);
+    const location = useLocation();
+    const [locais, setLocais] = useState([]);
+    const botoesMarcados = location.state?.botoesMarcados || [];
 
     async function sugereLocal() {
         const response = await fetch('http://localhost:3000/locais')
@@ -19,16 +16,21 @@ function Sugestoes() {
 
         const locaisSugestao = locais2.filter(local => {
             const keywords = [
-                ...(Array.isArray(local.tipo) ? local.tipo : []),
-                ...(Array.isArray(local.dias) ? local.dias : []),
-                ...(Array.isArray(local.oferece) ? local.oferece : [])
+                ...(local.tipo || []),
+                ...(local.dias || []),
+                ...(local.oferece || [])
             ]
-            return botoesMarcados.some(button => 
-                keywords.some(keyword => keyword.toLowerCase().includes(button.toLowerCase()))
-            );
+            return botoesMarcados.some(button =>
+                keywords.some(keyword =>
+                    keyword.toLowerCase().includes(button.toLowerCase()))
+            )
         })
         setLocais(locaisSugestao)
     }
+
+    useEffect(() => {
+        sugereLocal();
+    }, [botoesMarcados]);
 
     const listaLocais = locais.map(local => (
         <Card
@@ -48,9 +50,9 @@ function Sugestoes() {
                     <h1 className='sug_titulo'>Sugestões</h1>
                     <hr className='sug_barra' />
                 </div>
-            </div>
-            <div className="grid_locais">
-                {listaLocais}
+                <div className="grid_locais">
+                    {listaLocais}
+                </div>
             </div>
             <Footer />
         </>

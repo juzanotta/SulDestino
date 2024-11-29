@@ -18,6 +18,9 @@ body {
 
 .app_main_titulo {
   padding: 5em 0em 2.5em 0em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .app_main_botao {
@@ -31,7 +34,7 @@ body {
   padding: .6em 1.5em;
   cursor: pointer;
   /* text-align: center; */
-  margin: 2em 10em;
+  /* margin: 2em 10em; */
   display: flex;
   justify-content: center;
 }
@@ -44,6 +47,7 @@ body {
 }
 
 .app_main_barra {
+  width: 90%;
   margin: 2.5em;
 }
 

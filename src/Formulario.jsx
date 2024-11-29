@@ -5,7 +5,6 @@ import { Header } from './components/Header'
 import './Formulario.css'
 
 function Formulario() {
-    // const [click, setClick] = useState(null)
     const [botoesMarcados, setBotoesMarcados] = useState([])
 
 
@@ -18,8 +17,6 @@ function Formulario() {
             }
         })
     }
-
-
 
     function limpar() {
         setBotoesMarcados([])
@@ -115,7 +112,8 @@ function Formulario() {
                     </div>
 
                     <div className='form_botoes'>
-                        <Link to='/sugestoes'><input type="submit" value='Enviar' className='form_botao' state={{botoesMarcados}}/></Link>
+                        <Link to='/sugestoes' 
+                        state={{ botoesMarcados }}><input type="submit" value='Enviar' className='form_botao' state={{botoesMarcados}}/></Link>
                         <input type="reset" value='Limpar' className='form_botao' onClick={limpar}/>
                     </div>
 

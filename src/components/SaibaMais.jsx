@@ -89,7 +89,7 @@ function SaibaMais({ local = {}, locais, setLocais }) {
 
                 </div>
                 <div className='sm_avaliacao'>
-                    <form onSubmit={handleSubmit(comentar)}>
+                    <form onSubmit={handleSubmit(comentar)} className='sm_form'>
                         <p className='sm_campo'>
                             <label className='sm_label'>Escreva seu comentário:</label>
                             <textarea name="comentario" id="comentario" className='sm_textarea' {...register('comentario')}></textarea>
