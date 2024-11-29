@@ -73,6 +73,12 @@
     justify-content: space-between;
 }
 
+form {
+    display: flex;
+    align-items: center;
+    gap: 1.3em;
+}
+
 .sm_campo {
     display: flex;
     flex-direction: column;
@@ -109,6 +115,13 @@
     border-radius: .6em;
 }
 
+.comentario_container {
+    height: 2.4em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
 /* .sm_imgs_peq {
     display: flex;
     gap: 1em;
@@ -118,3 +131,52 @@
     border-radius: .6em;
     width: 9em;
 } */
+
+.sm_comentarios {
+    width: 19em;
+    padding-top: 1em;
+}
+
+.comentario_submit {
+    background-color: var(--pine);
+    border: solid .05em var(--pine);
+    font-size: .9em;
+    color: var(--fog);
+    font-weight: 600;
+    padding: .55em 1.2em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: .5em;
+    &:hover{
+        background-color: var(--fog);
+        border: solid .05em var(--pine);
+        color: var(--pine);
+    }
+}
+
+.comentario_campo {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding: .5em;
+    border: solid .01em var(--pine);
+    margin-bottom: .5em;
+    border-radius: .7em;
+}   
+
+.comentario_profile {
+    width: 1.7em;
+}
+
+.comentario_conteudo {
+}
+
+.comentario_nome {
+    font-weight: 600;
+    
+}
+
+.comentario_coment {
+
+}

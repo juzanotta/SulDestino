@@ -47,7 +47,7 @@ export function Card({ local, locais, setLocais }) {
     function deletar() {
         if (window.confirm("Tem certeza que deseja excluir este local?")) {
 
-            const locais2 = locais.filter((l) => l.id !== local.id);
+            const locais2 = locais.filter((x) => x.id !== local.id);
             setLocais(locais2);
 
             fetch(`http://localhost:3000/locais/${local.id}`, {

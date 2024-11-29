@@ -13,7 +13,7 @@ export function NovoLocal( {local, locais, setLocais, setOpen} ) {
             tipo: data.tipo,
             dias: data.dias,
             oferece: data.oferece,
-            comentario: '',
+            comentarios: [],
             favorito: Boolean(false)
         }
 

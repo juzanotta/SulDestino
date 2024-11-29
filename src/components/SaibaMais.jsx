@@ -1,12 +1,11 @@
 import { useState } from 'react';
-import { Footer } from './Footer'
-import { Header } from './Header'
 import { useForm } from 'react-hook-form';
 import './SaibaMais.css'
 
 function SaibaMais({ local = {}, locais, setLocais }) {
     const [favorito, setFavorito] = useState('./vazio.png');
-    const { register } = useForm()
+    const { register, handleSubmit, reset } = useForm()
+    // const [comentarios, setComentarios] = useState(local.comentarios ||[])
 
     function favoritar() {
         const novoFavorito = !local.favorito
@@ -37,16 +36,36 @@ function SaibaMais({ local = {}, locais, setLocais }) {
             <p key={index} className="pc_item">{item}</p>
         ));
     }
-    function deletar() {
-        if (window.confirm("Tem certeza que deseja excluir este local?")) {
-         
-            const locais2 = locais.filter((l) => l.id !== local.id);
-            setLocais(locais2);
 
-            fetch(`http://localhost:3000/locais/${local.id}`, {
-                method: 'DELETE',
-            })
-        }
+    function comentar(data) {
+        const comentario = data.comentario
+
+        const locais2 = [...locais]
+        const ind = locais2.findIndex(x => x.id === local.id)
+
+        locais2[ind].comentarios.push(comentario)
+
+        setLocais(locais2)
+
+        fetch(`http://localhost:3000/locais/${local.id}`, {
+            method: 'PUT',
+            body: JSON.stringify(locais2[ind])
+        })
+
+        reset()
+    }
+
+    function listaComentarios() {
+        return local.comentarios.map((comentario, index) => (
+            <div className='comentario_campo'>
+                <img src="profile.png" className='comentario_profile' />
+                <div className='comentario_conteudo'>
+                    <p className='comentario_nome'>Visitante</p>
+                    <p key={index} className='comentario_coment'>{comentario}</p>
+
+                </div>
+            </div>
+        ))
     }
 
     return (
@@ -69,19 +88,27 @@ function SaibaMais({ local = {}, locais, setLocais }) {
                     </div>
 
                 </div>
-            <div className='sm_avaliacao'>
-                <p className='sm_campo'>
-                    <label className='sm_label'>Escreva seu comentário:</label>
-                    <textarea name="comentario" id="comentario" className='sm_textarea'></textarea>
-                </p>
-                <div className='sm_fav'>
-                    <div className="card_buttons">
-                        <img src="./trash.png" onClick={deletar} className="card_trash" />
-                        <img src={favorito} onClick={favoritar} {...register('favorito')} className="card_coracao" />
-                    </div>
-                    <p className='sm_fav_p'>Adicione esse local aos seus favoritos</p>
+                <div className='sm_avaliacao'>
+                    <form onSubmit={handleSubmit(comentar)}>
+                        <p className='sm_campo'>
+                            <label className='sm_label'>Escreva seu comentário:</label>
+                            <textarea name="comentario" id="comentario" className='sm_textarea' {...register('comentario')}></textarea>
+                        </p>
+                        <div className='comentario_container'>
+                            <div className='sm_fav'>
+                                <img src={favorito} onClick={favoritar} {...register('favorito')} className="card_coracao" />
+                                <p className='sm_fav_p'>Adicione esse local aos seus favoritos</p>
+                            </div>
+                            <p>
+                                <input type="submit" value='Enviar comentário' className='comentario_submit' />
+                            </p>
+
+                        </div>
+                    </form>
                 </div>
-            </div>
+                <div className="sm_comentarios">
+                    {listaComentarios()}
+                </div>
             </div>
 
         </>
