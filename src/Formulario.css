@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+    --focus: #52624531;
+}
+
+body {
+    background-color: var(--fog);
+}
+
+.formulario {
+    font-family: inter;
+    padding: 2em 9em;
+}
+
+.form_sec {
+    /* padding-bottom: 1.5em; */
+}
+
+.form_titulo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--pine);
+    padding-bottom: .5em;
+}
+
+.form_barra {
+    color: var(--pine);
+    width: 50%;
+}
+
+.filtro {
+
+}
+
+.campo {
+    padding-bottom: 1em;
+}
+
+.form_campo_titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: var(--pine);
+    font-weight: 700;
+    padding: 1em 0em .9em 0em;
+}
+
+.form_campo_botoes {
+    display: flex;
+    justify-content: center;
+    padding: 0em 10em;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.form_campo_botao {
+    background-color: var(--fog);
+    border: solid .05em var(--fog);
+    /* border: none; */
+    font-size: 1em;
+    color: var(--sage);
+    font-weight: 600;
+    padding: .7em 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 .1em .5em var(--sage);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form_campo_botao:hover {
+    border: solid .05em var(--sage);
+    color: var(--fog);
+    background-color: var(--sage);
+}
+
+.cor_click {
+    background-color: var(--focus);
+    border: solid .05em var(--focus);
+    font-size: 1em;
+    color: var(--pine);
+    font-weight: 600;
+    padding: .7em 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 .1em .5em var(--sage);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form_botoes {
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    gap: 1em;
+}
+
+.form_botao[type=submit] {
+    background-color: var(--pine);
+    border: solid .05em var(--pine);
+    font-size: 1em;
+    color: var(--fog);
+    font-weight: 600;
+    padding: .7em 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 .1em .5em var(--sage);
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: var(--fog);
+        border: solid .05em var(--fog);
+        color: var(--pine);
+    }
+}
+
+.form_botao[type=reset] {
+    background-color: var(--sage);
+    border: solid .05em var(--sage);
+    font-size: 1em;
+    color: var(--fog);
+    font-weight: 600;
+    padding: .7em 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 .1em .5em var(--sage);
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: var(--fog);
+        border: solid .05em var(--fog);
+        color: var(--sage);
+    }
+}

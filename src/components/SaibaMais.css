@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+.saiba_mais {
+    font-family: inter;
+    padding: 2em 3em;
+    justify-content: space-between;
+    background-color: var(--fog);
+}
+
+.sm_container {
+    display: flex;
+
+}
+
+.sm_conteudo {
+    padding: 2em 0em;
+} 
+
+.sm_nome {
+    font-size: 1.8em;
+    font-weight: 800;
+    color: var(--pine);
+    padding-bottom: .4em;
+}
+
+.sm_loc {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    padding-bottom: 1.5em;
+}
+
+.sm_loc_img {
+    width: .9em;
+}
+
+.sm_loc_texto {
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.sm_p {
+    width: 20em;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding-bottom: 2em;
+}
+
+.sm_pc {
+    display: flex;
+    gap: .5em;
+    flex-wrap: wrap;
+    width: 19em;
+}
+
+.sm_pc_item {
+    font-size: .9em;
+    border: solid .1em var(--sage);
+    border-radius: 1em;
+    padding: .2em .5em;
+    margin-top: 0em;
+    margin-bottom: .5em;
+}
+
+.sm_avaliacao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm_campo {
+    display: flex;
+    flex-direction: column;
+    width: 19em;
+}
+
+.sm_label {
+    padding-bottom: .6em;
+    font-size: 1em;
+}
+
+.sm_textarea {
+    height: 4.5em;
+}
+
+.sm_fav {
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.sm_coracao {
+    width: 1.3em;
+    cursor: pointer;
+}
+
+.sm_fav_p {
+    font-size: 1em;
+}
+
+.sm_img_gr {
+    width: 24em;
+    padding-bottom: .6em;
+    border-radius: .6em;
+}
+
+/* .sm_imgs_peq {
+    display: flex;
+    gap: 1em;
+}
+
+.sm_img_peq {
+    border-radius: .6em;
+    width: 9em;
+} */

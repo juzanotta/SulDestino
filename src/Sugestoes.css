@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+body {
+    background-color: var(--fog);
+}
+
+.sugestoes {
+    font-family: inter;
+    padding: 2em 9em;
+}
+
+.sug_sec {
+    padding-bottom: 1.5em;
+}
+
+.sug_titulo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--pine);
+    padding-bottom: .5em;
+}
+
+.sug_barra {
+    color: var(--pine);
+    width: 40%;
+}

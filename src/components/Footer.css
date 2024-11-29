@@ -1,0 +1,45 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+footer {
+    font-family: inter;
+    color: var(--fog);
+    background-color: var(--sage);
+    margin: 0em;
+    padding: 0em;
+    height: 5em;
+    align-items: center;
+}
+
+.footer_logo {
+    font-family: urbanist;
+    text-decoration: none;
+    color: var(--fog);
+    font-weight: 400;
+    font-size: 1.3em;
+    cursor: pointer;
+    position: relative;
+    margin-bottom: 0em;
+}
+
+footer > h2 {
+    padding-top: 1.5em;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.footer_logo > span {
+    font-weight: 700;
+}
+
+.copy {
+    margin-top: .5em;
+    text-align: center;
+    font-size: .7em;
+}
