@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+  }
+
+header {
+    font-family: inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 9em;
+    justify-content: space-between;
+    top: 0em;
+    background-color: var(--fog);
+}
+
+.logo {
+    font-family: urbanist;
+    text-decoration: none;
+    color: var(--pine);
+    font-weight: 400;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: relative;
+}
+
+.logo > span {
+    font-weight: 700;
+}
+
+.logo:after {
+    content: '';
+    width: 0;
+    height: .03em;
+    background-color: var(--sage);
+    position: absolute;
+    left: 0;
+    bottom: -.1em;
+    transition: 0.5s;
+}
+
+.logo:hover::after {
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.nav_link {
+    text-decoration: none;
+    font-size: .85em;
+    font-weight: 400;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color: var(--pine);
+}
+
+.nav_link:after {
+    content: '';
+    width: 0;
+    height: .05em;
+    background-color: var(--sage);
+    position: absolute;
+    left: 0;
+    bottom: -.5em;
+    transition: 0.5s;
+}
+
+.nav_link:hover::after {
+    width: 100%;
+}
+
+.header_botoes {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.header_lupa {
+    filter: drop-shadow(1);
+    transition: .4s;
+    height: 100%;
+}
+
+.lupa_wrapper {
+    /* height: 1.3em; */
+    /* overflow: hidden; */
+}
+
+.lupa_wrapper:hover .header_lupa {
+    filter: none;
+    scale: 1.05;
+}
+
+.nav_botao {
+    font-size: .9em;
+    font-weight: 500;
+    background-color: var(--pine);
+    color: var(--fog);
+    border: var(--pine) solid .1em;
+    border-radius: 1.5em;
+    padding: .55em 1em;
+    cursor: pointer;
+}
+
+.nav_botao:hover {
+    background-color: var(--fog);
+    color: var(--pine);
+    box-shadow: 0 .1em .5em var(--sage);
+    font-weight: 500;
+}

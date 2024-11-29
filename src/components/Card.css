@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+.card {
+    font-family: inter;
+    width: 20em;
+    border-radius: .8em;
+    box-shadow: 0 .1em .5em var(--sage);
+    /* width: 30.2%; */
+    height: 100%;
+    filter: drop-shadow(1);
+    transition: .1s;
+}
+
+.card_wrapper:hover .card {
+    filter: none;
+    scale: 1.02;
+}
+
+
+
+.card_foto {
+    width: 20em;
+    border-radius: .8em .8em 0em 0em;
+    margin-bottom: 0em;
+}
+
+.card_conteudo {
+    padding: .5em 1.5em 1em 1.5em;
+}
+
+.card_nome_fav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: -.7em; */
+    height: 2.3em;
+}
+
+.card_nome {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--pine);
+    font-weight: 700;
+    position: relative;
+    cursor: pointer;
+}
+
+.card_nome:after {
+    content: '';
+    width: 0;
+    height: .03em;
+    background-color: var(--sage);
+    position: absolute;
+    left: 0;
+    bottom: -.1em;
+    transition: 0.5s;
+}
+
+.card_nome:hover::after {
+    width: 100%;
+}
+
+.card_buttons {
+    display: flex;
+    gap: .55em;
+    cursor: pointer;
+    /* align-items: center; */
+}
+
+.card_trash {
+    width: 1.1em;
+}
+
+.card_coracao {
+    width: 1.4em;
+    cursor: pointer;
+}
+
+.card_loc {
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    height: 2em;
+    padding-bottom: 1em;
+}
+/* 
+.loc_img {
+    width: 1em;
+} */
+
+.loc_texto {
+    font-size: 1em;
+    color: var(--sage);
+    font-weight: 500;
+}
+
+.card_desc {
+    color: var(--sage);
+    margin-top: 0.5em;
+    height: 5em;
+    font-size: .9em;
+    font-weight: 500;
+}
+
+.card_pc {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .5em;
+}
+
+.pc_item {
+    font-size: .8em;
+    border: solid .1em var(--sage);
+    border-radius: 1em;
+    padding: .2em .5em;
+    margin-top: 0em;
+    margin-bottom: .5em;
+    text-transform: capitalize;
+}

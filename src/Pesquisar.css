@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+body {
+    background-color: var(--fog);
+    /* height: 100%;
+    margin: 0; */
+}
+
+.pesquisa {
+    font-family: inter;
+    padding: 2em 9em;
+    /* min-height: 100%; */
+    /* margin-bottom: -50px; */
+}
+
+.pesq_sec {
+    padding-bottom: 1.5em;
+}
+
+.pesq_titulo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--pine);
+    padding-bottom: .5em;
+}
+
+.pesq_barra {
+    color: var(--pine);
+    width: 40%;
+}
+
+.pesq_campo {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.pesq_input {
+    padding: .7em 1.5em;
+    border-radius: 2em;
+    font-size: .9em;
+    width: 25em;
+    border: solid .1em var(--pine);
+    margin-right: 1em;
+}
+
+
+.pesq_submit {
+    padding: .7em 1.5em;
+    border-radius: 2em;
+    font-size: .85em;
+    font-weight: 600;
+    color: var(--fog);
+    background-color: var(--pine);
+    border: solid .1em var(--pine);
+    cursor: pointer;
+    &:hover {
+        color: var(--pine);
+        background-color: var(--fog);
+        
+    }
+}

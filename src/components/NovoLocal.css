@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --fog: #F5F4F0;
+    --pine: #2B3B20;
+    --sage: #526245;
+}
+
+.novolocal {
+    font-family: inter;
+    padding: .2em 1em;
+}
+
+.nl_titulo {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--pine);
+    letter-spacing: .05em;
+    padding-bottom: 1em;
+}
+
+.nl_form {
+    width: 27em;
+}
+
+.nl_campo {
+    display: flex;
+    gap: .7em;
+    padding: .3em 0em;
+    align-items: center;
+}
+
+.nl_label {
+    font-size: 1.1em;
+    color: var(--pine);
+}
+
+.nl_input {
+    border-radius: 1em;
+    border: solid .05em var(--sage);
+    padding: .3em .3em;
+}
+
+.nl_carac {
+    color: var(--pine);
+    font-size: 1.15em;
+    padding: .8em 0em .6em;
+}
+
+.nl_campo_radio {
+    color: var(--pine);
+}
+
+.radio_label {
+    font-size: 1.1em;
+}
+
+.radio_campos {
+    font-size: 1em;
+    padding: .3em 0em .7em 0em;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.6em;
+}
+
+.radio_input {
+    cursor: pointer;
+}
+
+.nl_botoes {
+    display: flex;
+    gap: .8em;
+    padding-top: 1em;
+}
+
+.nl_submit {
+    background-color: var(--pine);
+    border: solid .05em var(--pine);
+    font-size: .9em;
+    color: var(--fog);
+    font-weight: 600;
+    padding: .55em 1.2em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: var(--fog);
+        border: solid .05em var(--pine);
+        color: var(--pine);
+    }
+}
+
+.nl_reset {
+    background-color: var(--sage);
+    border: solid .05em var(--sage);
+    font-size: .9em;
+    color: var(--fog);
+    font-weight: 600;
+    padding: .55em 1.2em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover{
+        background-color: var(--fog);
+        border: solid .05em var(--sage);
+        color: var(--sage);
+    }
+}
