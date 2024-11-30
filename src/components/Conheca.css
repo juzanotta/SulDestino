@@ -12,6 +12,10 @@
     color: var(--fog);
     background-color: var(--sage);
     padding: 3.5em 11em 1em 11em;
+    @media (max-width: 800px) {
+        width: 116%;
+        padding: 2.5em 2em;
+      }
 }
 
 .conheca_titulo {
@@ -27,6 +31,10 @@
     font-size: 1.18em;
     line-height: 1.3em;
     font-weight: 200;
+    @media (max-width: 800px) {
+        width: 90%;
+        font-size: 1.3em;
+      }
 }
 
 .conheca_dt {
@@ -38,4 +46,7 @@
     font-weight: 300;
     margin-top: -3em;
     font-family: urbanist;
+    @media (max-width: 800px) {
+        margin-top: -1.7em;
+      }
 }

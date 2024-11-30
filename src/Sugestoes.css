@@ -13,6 +13,10 @@ body {
 .sugestoes {
     padding: 2em 9em;
     font-family: inter;
+    @media (max-width: 800px) {
+        padding: 2em 2em;
+        width: 118%;
+      }
 }
 
 .sug_sec {
@@ -25,9 +29,16 @@ body {
     font-weight: 700;
     color: var(--pine);
     padding-bottom: .5em;
+    @media (max-width: 800px) {
+        font-size: 2.1em;
+        font-weight: 800;
+      }
 }
 
 .sug_barra {
     color: var(--pine);
     width: 40%;
+    @media (max-width: 800px) {
+        width: 65%;
+      }
 }

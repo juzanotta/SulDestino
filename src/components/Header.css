@@ -16,14 +16,10 @@ header {
     justify-content: space-between;
     top: 0em;
     background-color: var(--fog);
-
     @media (max-width: 800px) {
         padding: 0em;
         display: block;
         width: 133%;
-        /* justify-content: space-around;
-        width: 26em;
-        flex-direction: column; */
     }
 }
 

@@ -15,6 +15,9 @@
     height: 100%;
     filter: drop-shadow(1);
     transition: .1s;
+    @media (max-width: 800px) {
+        width: 22em;
+      }
 }
 
 .card_wrapper:hover .card {
@@ -28,6 +31,9 @@
     width: 20em;
     border-radius: .8em .8em 0em 0em;
     margin-bottom: 0em;
+    @media (max-width: 800px) {
+        width: 22em;
+      }
 }
 
 .card_conteudo {

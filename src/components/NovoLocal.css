@@ -9,6 +9,10 @@
 .novolocal {
     font-family: inter;
     padding: .2em 1em;
+    @media (max-width: 800px) {
+        padding: 1em 1em;
+        width: 90%;
+      }
 }
 
 .nl_titulo {
@@ -18,10 +22,13 @@
     color: var(--pine);
     letter-spacing: .05em;
     padding-bottom: 1em;
+    @media (max-width: 800px) {
+        font-size: 1.5em;
+    }
 }
 
 .nl_form {
-    width: 27em;
+    width: 21em;
 }
 
 .nl_campo {
@@ -34,6 +41,9 @@
 .nl_label {
     font-size: 1.1em;
     color: var(--pine);
+    @media (max-width: 800px) {
+        font-size: 1.3em;
+    }
 }
 
 .nl_input {
@@ -46,6 +56,9 @@
     color: var(--pine);
     font-size: 1.15em;
     padding: .8em 0em .6em;
+    @media (max-width: 800px) {
+        font-size: 1.3em;
+    }
 }
 
 .nl_campo_radio {
@@ -54,6 +67,9 @@
 
 .radio_label {
     font-size: 1.1em;
+    @media (max-width: 800px) {
+        font-size: 1.3em;
+    }
 }
 
 .radio_campos {
@@ -62,6 +78,9 @@
     display: flex;
     flex-wrap: wrap;
     line-height: 1.6em;
+    @media (max-width: 800px) {
+        font-size: 1.25em;
+    }
 }
 
 .radio_input {
@@ -89,6 +108,9 @@
         border: solid .05em var(--pine);
         color: var(--pine);
     }
+    @media (max-width: 800px) {
+        font-size: 1.1em;
+    }
 }
 
 .nl_reset {
@@ -105,5 +127,8 @@
         background-color: var(--fog);
         border: solid .05em var(--sage);
         color: var(--sage);
+    }
+    @media (max-width: 800px) {
+        font-size: 1.1em;
     }
 }
