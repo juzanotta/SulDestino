@@ -35,7 +35,9 @@
         "gastronomia",
         "atividade"
       ],
-      "comentarios": [],
+      "comentarios": [
+        "top"
+      ],
       "favorito": false
     },
     {
