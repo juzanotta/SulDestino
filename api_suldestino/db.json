@@ -18,7 +18,7 @@
         "Atividades"
       ],
       "comentarios": [],
-      "favorito": false
+      "favorito": true
     },
     {
       "id": "a2b3",
@@ -60,7 +60,7 @@
       "comentarios": [
         "Lugar incrível, recomendo!"
       ],
-      "favorito": false
+      "favorito": true
     },
     {
       "id": "c1d2",
@@ -662,7 +662,7 @@
         "paisagem"
       ],
       "comentarios": [],
-      "favorito": true
+      "favorito": false
     },
     {
       "id": "7d71",
