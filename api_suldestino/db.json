@@ -1,51 +1,112 @@
 {
   "locais": [
     {
-      "id": "b6f2",
-      "nome": "Local 2",
-      "cidade": "Cidade 2",
-      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGncBdaOAbOIwoEdbgH4MH4G92HQNgfyJqxQ&s",
-      "descricao": "cidade 2",
+      "id": "a1b2",
+      "nome": "Estância da Lagoa",
+      "cidade": "Tapes",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH02qjoLkHpcxUAGVVSXbHwyr9HbKrm6aoqw&s",
+      "descricao": "A Estância da Lagoa é um refúgio perfeito para quem deseja escapar da rotina e desfrutar da tranquilidade do campo. Localizada em Tapes, oferece atividades como pesca em sua lagoa privada e passeios a cavalo por trilhas cercadas por natureza exuberante. É o lugar ideal para famílias e casais que buscam descanso e momentos de lazer em meio à serenidade do interior gaúcho.",
       "tipo": [
-        "amigos"
+        "familia",
+        "casal"
       ],
       "dias": [
-        "5-7"
+        "2-3 dias"
       ],
       "oferece": [
-        "descanso",
-        "trilha"
+        "Descanso",
+        "Atividades"
       ],
       "comentarios": [],
-      "favorito": true
+      "favorito": false
     },
     {
-      "id": "f08f",
-      "nome": "Local 1",
-      "cidade": "Cidade 1",
-      "foto": "https://i.pinimg.com/originals/66/8a/0d/668a0d960e23f077004dd118ff85f853.jpg",
-      "descricao": "cidade 1",
+      "id": "a2b3",
+      "nome": "Vila Rural do Salso",
+      "cidade": "Camaquã",
+      "foto": "https://i.mgfserv.com/300x180/aHR0cHM6Ly9jZG51c28uY29tLzE5MTk2LzIwMjEvMTEvMjM1NjY0ZDVhYmQ1ZmM1NDFlMjE2MjU5N2FmMjhiNDkuanBn.jpg",
+      "descricao": "A Vila Rural do Salso é um destino encantador, com chalés aconchegantes rodeados por uma rica vegetação nativa. Este local é perfeito para quem deseja se desconectar da vida urbana e vivenciar a simplicidade da vida no campo. Oferece trilhas ecológicas que permitem explorar a fauna e flora local, além de experiências gastronômicas que destacam os sabores tradicionais da região. É o local ideal para casais e amigos que buscam relaxamento e aventura ao mesmo tempo.",
       "tipo": [
-        "familia"
+        "amigos",
+        "casal"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Trilhas",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "b1c2",
+      "nome": "Pousada do Pampa",
+      "cidade": "Arambaré",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtG-c5T1wO4vNd-F5OZkYmrqQJwOU29wQULw&s",
+      "descricao": "A Pousada do Pampa é um verdadeiro paraíso rural, situada em Arambaré, onde a beleza natural se encontra com o conforto. Além de sua gastronomia típica, que resgata os sabores mais autênticos do Rio Grande do Sul, a pousada oferece passeios a cavalo e outras atividades ao ar livre, imersas nas paisagens campestres. Perfeita para famílias e casais que buscam um ambiente acolhedor e uma experiência que mistura tradição gaúcha com lazer e descanso.",
+      "tipo": [
+        "familia",
+        "casal"
       ],
       "dias": [
         "5-7 dias"
       ],
       "oferece": [
-        "gastronomia",
-        "atividade"
+        "Gastronomia",
+        "Atividades"
       ],
       "comentarios": [
-        "top"
+        "Lugar incrível, recomendo!"
       ],
       "favorito": false
     },
     {
-      "id": "dbee",
-      "nome": "Local 4",
-      "cidade": "Cidade 4",
-      "foto": "https://i.pinimg.com/originals/66/8a/0d/668a0d960e23f077004dd118ff85f853.jpg",
-      "descricao": "local 4",
+      "id": "c1d2",
+      "nome": "Caminho do Vinho",
+      "cidade": "São Lourenço do Sul",
+      "foto": "https://www.alcindoimoveis.com.br//laravel/public/storage/blogs/December2021/Arroiio2.jpg",
+      "descricao": "O Caminho do Vinho é uma rota turística fascinante que leva os visitantes a explorar diversas vinícolas da Costa Doce Gaúcha. Ao longo do caminho, é possível desfrutar de paisagens deslumbrantes, aprender sobre a produção de vinhos e degustar rótulos premiados. A rota também oferece uma experiência gastronômica única, com pratos típicos harmonizados com os vinhos locais. Ideal para famílias e amigos que desejam vivenciar a cultura e as delícias da região.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Paisagens",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "d1e2",
+      "nome": "Sítio Encantado",
+      "cidade": "Tapes",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPYBUrbjv1Vmnta0jZSXQXKrWEuxPWI4hYDw&s",
+      "descricao": "O Sítio Encantado é uma verdadeira fazenda educativa, ideal para famílias com crianças. Localizado em Tapes, oferece experiências rurais autênticas, como ordenha de vacas, plantio de hortas e passeios de charrete. Além disso, o sítio proporciona atividades de lazer e convivência com os animais, sendo uma excelente opção para quem deseja aprender mais sobre a vida no campo e desfrutar de momentos em harmonia com a natureza.",
+      "tipo": [
+        "familia"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Atividades",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "e1f2",
+      "nome": "Refúgio dos Açores",
+      "cidade": "Rio Pardo",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThyLtiXk53m_YkkKw81Pg7ztTjkicuVyCOqA&s",
+      "descricao": "O Refúgio dos Açores, situado na cidade de Rio Pardo, é um local perfeito para quem busca paz e contato íntimo com a natureza. Oferece trilhas ecológicas que permitem explorar o vasto território rural e apreciar a fauna e flora locais, além de ser um excelente local para descanso, meditação e relaxamento. Ideal para casais que buscam um refúgio tranquilo para recarregar as energias em um ambiente rodeado por paisagens naturais de tirar o fôlego.",
       "tipo": [
         "casal"
       ],
@@ -53,8 +114,663 @@
         "2-3 dias"
       ],
       "oferece": [
+        "Trilhas",
+        "Descanso"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "f1g2",
+      "nome": "Fazenda do Sobrado",
+      "cidade": "São Lourenço do Sul",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQymOtQdgnDHddi-7Hc_TTInqem2zDW91xb5A&s",
+      "descricao": "A Fazenda dos Bugres é um verdadeiro pedacinho do Rio Grande do Sul, onde é possível vivenciar a cultura campeira em sua essência. Localizada em São Lourenço do Sul, oferece aos visitantes atividades típicas, como cavalgadas, rodeios e o famoso churrasco gaúcho. Além disso, a fazenda promove eventos culturais e proporciona uma experiência imersiva na história do sul do Brasil.",
+      "tipo": [
+        "amigos",
+        "familia"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Cultura"
+      ],
+      "comentarios": [],
+      "favorito": true
+    },
+    {
+      "id": "g1h2",
+      "nome": "Trilha do Capão do Cipó",
+      "cidade": "Camaquã",
+      "foto": "https://imagedelivery.net/EafvxYlk8cSUsWEWsetEdQ/2d653840-7597-4988-43fe-73604fd2e800/w=1000",
+      "descricao": "A Trilha do Capão do Cipó é uma das mais belas trilhas ecológicas da Costa Doce Gaúcha. Localizada em Camaquã, essa trilha oferece uma imersão completa na natureza, com vegetação nativa, fauna local e vistas deslumbrantes. Ideal para quem busca aventura e contato com a natureza, a trilha também é excelente para quem deseja fazer caminhadas ou passeios de bike, com um final de jornada repleto de paisagens de tirar o fôlego.",
+      "tipo": [
+        "amigos",
+        "casal"
+      ],
+      "dias": [
+        "1-2 dias"
+      ],
+      "oferece": [
+        "Trilhas",
+        "Paisagens"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "h1i2",
+      "nome": "Ranchos da Vaca Brava",
+      "cidade": "Arambaré",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbaoEHLWEnj5sCq7IUrMUGbgQ1M8KehE9omw&s",
+      "descricao": "O Ranchos da Vaca Brava é uma excelente opção para quem deseja vivenciar o estilo de vida rural, com foco na cultura campeira e gastronomia típica. Localizado em Arambaré, o rancho oferece passeios de cavalo, atividades de pescaria e churrascos com produtos locais. Um ótimo destino para famílias e amigos que querem aprender sobre a vida no campo e ainda desfrutar da culinária tradicional gaúcha.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Cultura"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "i1j2",
+      "nome": "Estância dos Açores",
+      "cidade": "Tapes",
+      "foto": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbtW5aeHqZgdtLcKwm-rorl7r9uyMfI7TDwjhuJCefarBXdjvijWi6qus6-t6-sUmHfuckUHwZKNl3GbwsULT2B8e5S4n5ZykX08ulrm087QPnnrdcRTeJxGzmZLPSf5fByVHN4ioCyFgC/s1600/18+-+Solar+LOPO+GON%25C3%2587ALVES.jpgg",
+      "descricao": "A Estância dos Açores é um refúgio rural em Tapes, perfeito para quem busca tranquilidade e momentos de lazer. Com uma vista deslumbrante, a estância oferece atividades como trilhas e passeios a cavalo, além de ser um excelente local para descanso e desconexão. É o lugar ideal para casais e famílias que buscam relaxamento em um ambiente sereno, com belas paisagens ao redor.",
+      "tipo": [
+        "familia",
+        "casal"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Trilhas",
+        "Descanso"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "j1k2",
+      "nome": "Sítio do Pontal",
+      "cidade": "Tapes",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtf3qPEhYWGVbJ1jsnPTRiv8IUPdXYncawoA&s",
+      "descricao": "Localizado em Tapes, o Sítio do Pontal é um lugar encantador para quem quer aproveitar o melhor do campo. Oferece atividades como pescaria, caminhadas pelas trilhas e muito mais. Os visitantes podem relaxar em meio à natureza e aproveitar a gastronomia local, com pratos preparados com ingredientes frescos da região.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "k1l2",
+      "nome": "Pousada do Capão",
+      "cidade": "Camaquã",
+      "foto": "https://static.wixstatic.com/media/351e72_c094bcf84eb041e681ad4194d5c1a111~mv2.png/v1/fill/w_280,h_218,q_90/351e72_c094bcf84eb041e681ad4194d5c1a111~mv2.png",
+      "descricao": "A Pousada do Capão é um refúgio de tranquilidade no coração da Costa Doce Gaúcha. Localizada em Camaquã, oferece chalés rodeados por mata nativa e trilhas para caminhadas, além de uma gastronomia deliciosa com pratos típicos da região. Ideal para casais e famílias que buscam um descanso em meio à natureza.",
+      "tipo": [
+        "familia",
+        "casal"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Descanso",
+        "Trilhas"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "l1m2",
+      "nome": "Fazenda Santa Clara",
+      "cidade": "Arambaré",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo7bPP1wjzu4f7sthnjIMt0pqPbw7Viw4u-g&sg",
+      "descricao": "A Fazenda Santa Clara é um ótimo destino para quem quer experimentar a vida no campo. Localizada em Arambaré, oferece passeios de charrete, visita a plantações de arroz e gastronomia baseada em produtos típicos da região. Ideal para famílias e grupos de amigos que buscam uma experiência completa do campo gaúcho.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "m1n2",
+      "nome": "Rota do Litoral",
+      "cidade": "São Lourenço do Sul",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP5zlpj5oHHn-YcuBDqLRjWO17SAHgsnKfIw&s",
+      "descricao": "A Rota do Litoral é um percurso turístico que percorre diversas praias e vilarejos ao longo da costa de São Lourenço do Sul. Com paisagens belíssimas, a rota oferece várias opções de lazer, como caminhadas nas trilhas e momentos de descanso em pontos estratégicos da região.",
+      "tipo": [
+        "amigos",
+        "familia"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Paisagens",
+        "Trilhas"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "n1o2",
+      "nome": "Sítio das Cascatas",
+      "cidade": "Tapes",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPSphYpIuG4BO2Slj441I5FV6H_Wxf7qPgiQ&s",
+      "descricao": "O Sítio das Cascatas é um lugar maravilhoso em Tapes, onde os visitantes podem se encantar com as lindas quedas d'água, trilhas pela mata e a tranquilidade que o local proporciona. Além disso, a gastronomia local oferece pratos preparados com ingredientes frescos da região.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Cascatas",
+        "Trilhas"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "q1r2",
+      "nome": "Pousada do Campo",
+      "cidade": "Tapes",
+      "foto": "https://images.trvl-media.com/lodging/49000000/48280000/48275100/48275063/e4608996.jpg?impolicy=fcrop&w=357&h=201&p=1&q=medium",
+      "descricao": "A Pousada do Campo oferece uma experiência tranquila e relaxante, com atividades como pesca, trilhas e descanso em meio à natureza. Localizada em Tapes, é o lugar perfeito para casais e famílias que desejam se desconectar do mundo e viver o melhor do interior.",
+      "tipo": [
+        "familia",
+        "casal"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Descanso",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "r1s2",
+      "nome": "Fazenda do Lago",
+      "cidade": "Arambaré",
+      "foto": "https://casatemporada.com/inc/timthumb.php?w=379&h=262&q=30&a=c&src=%2Fuploads%2Fanuncios%2Ffotos%2F6900901b80c0b4ebde30081100dc4731.jpg",
+      "descricao": "A Fazenda do Lago oferece uma vista espetacular e diversas opções de lazer, como passeios de barco no lago, trilhas ecológicas e pescarias. Localizada em Arambaré, é um destino ideal para quem busca um ambiente calmo e natural para relaxar com a família e amigos.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Paisagens",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "s1t2",
+      "nome": "Estância do Rio Grande",
+      "cidade": "Camaquã",
+      "foto": "https://www.donfanews.com.br/images/usuario/1599159989141.jpeg",
+      "descricao": "A Estância do Rio Grande é um lugar tranquilo onde as famílias podem desfrutar de passeios a cavalo, pescarias e boas caminhadas pelas trilhas. Localizada em Camaquã, a estância é ideal para quem deseja aproveitar um ambiente calmo e repleto de belezas naturais.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Atividades",
+        "Paisagens"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "t1u2",
+      "nome": "Rancho do Campo",
+      "cidade": "Arambaré",
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_932338-MLB27094040243_032018-O.webp",
+      "descricao": "O Rancho do Campo oferece um contato direto com a natureza, onde visitantes podem desfrutar de trilhas, pescaria e até aprender sobre a vida rural. Localizado em Arambaré, este destino é ideal para quem deseja experimentar o verdadeiro campo gaúcho.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Atividades",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "u1v2",
+      "nome": "Rota dos Açores",
+      "cidade": "São Lourenço do Sul",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5694K6_sqs108GnOjOAsCQLCZIB3umn4Nw&s",
+      "descricao": "A Rota dos Açores é uma linda viagem pela cultura açoriana na Costa Doce Gaúcha. Com paradas em pontos históricos e com a gastronomia local, é uma rota perfeita para quem deseja aprender mais sobre os imigrantes açorianos e seus costumes.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Cultura",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "p1a2",
+      "nome": "Charqueada São João",
+      "cidade": "Pelotas",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_fQD8UMb2IpdOupTIabv9i4SGS6Hnh84ZA&s",
+      "descricao": "A Fazenda São João é um lugar encantador para quem deseja conhecer a vida rural no Sul do Brasil. Localizada em Pelotas, essa fazenda oferece aos visitantes passeios pelas plantações, interação com os animais da fazenda e uma verdadeira imersão na cultura campeira. Ideal para famílias e grupos de amigos, a propriedade também conta com uma excelente gastronomia, com pratos típicos preparados com produtos locais e frescos.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Atividades",
+        "Cultura"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "p2b3",
+      "nome": "Sítio do Sol",
+      "cidade": "Pelotas",
+      "foto": "https://exclusivesul.com.br/blog/wp-content/uploads/2024/01/colina-do-sol-pelotas-imagem-de-casa-de-esquina-no-bairro-colina-do-sol-1089x730.jpg",
+      "descricao": "O Sítio do Sol é um destino ideal para quem deseja se afastar do movimento urbano e aproveitar o sossego do campo. Localizado nas proximidades de Pelotas, o sítio oferece diversas atividades, como trilhas, observação da fauna local e pesca no pequeno lago. O local também é famoso por suas refeições preparadas com ingredientes orgânicos, perfeitas para quem deseja uma alimentação saudável e autêntica.",
+      "tipo": [
+        "familia",
+        "casal"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Trilhas"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "p3c4",
+      "nome": "Caminho das Pedras",
+      "cidade": "Pelotas",
+      "foto": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/8d/41/5f/photo0jpg.jpg?w=900&h=500&s=1",
+      "descricao": "O Caminho das Pedras é uma rota rural histórica que leva os visitantes a conhecer pequenos sítios e propriedades familiares no interior de Pelotas. Ao longo do percurso, é possível explorar a natureza, visitar pequenas fazendas de produção de queijos e outros produtos artesanais, além de aprender sobre as tradições culturais da região. A experiência é ideal para quem deseja viver um dia de campo com uma rica dose de história e gastronomia.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "1-2 dias"
+      ],
+      "oferece": [
+        "Cultura",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "m1d2",
+      "nome": "Ranchos do Morro",
+      "cidade": "Morro Redondo",
+      "foto": "https://resizedimgs.zapimoveis.com.br/crop/614x297/vr.images.sp/99006f15d3e2ca8873937d15953d9441.webp",
+      "descricao": "Ranchos do Morro é uma propriedade rural em Morro Redondo que oferece uma imersão completa na vida de campo. Os visitantes podem participar de atividades típicas, como cavalos, ordenha de vacas e preparo de alimentos tradicionais da região. Além disso, a paisagem ao redor do rancho é deslumbrante, com montanhas, campos verdes e uma tranquila atmosfera rural. É o lugar perfeito para casais que buscam um refúgio romântico no interior.",
+      "tipo": [
+        "casal",
+        "familia"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Atividades",
+        "Paisagens"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "m2e3",
+      "nome": "Fazenda Morro Redondo",
+      "cidade": "Morro Redondo",
+      "foto": "https://resizedimgs.vivareal.com/crop/286x200/named.images.sp/18c7848c943485f28d710d67f11000fe/foto-1-de-fazendasitio-com-3-quartos-a-venda-20000m-em-centro-morro-redondo.webp",
+      "descricao": "A Fazenda Morro Redondo é um local encantador que oferece aos turistas uma verdadeira experiência rural. Com trilhas pela mata, passeios a cavalo, pesca e contato com a vida no campo, os visitantes podem desfrutar de momentos tranquilos em meio à natureza. Além disso, a gastronomia da fazenda é preparada com ingredientes frescos, produzidos diretamente no local, proporcionando uma experiência autêntica da culinária rural.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "3-5 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "p4f5",
+      "nome": "Fazenda Santa Maria",
+      "cidade": "Pelotas",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWCmqw2qFB_RvVmzFM7988sZ0MmKwNZyEgKQ&s",
+      "descricao": "A Fazenda Santa Maria é uma excelente opção para quem deseja conhecer a vida agrícola da região de Pelotas. Localizada em uma vasta área rural, oferece atividades como colheita de frutas, visita a plantações e convivência com os animais. Além disso, os visitantes podem desfrutar de uma gastronomia típica, com pratos preparados a partir de produtos frescos da fazenda. É um local ideal para famílias e amigos.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Gastronomia",
+        "Atividades"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "p5g6",
+      "nome": "Sítio do Vale Verde",
+      "cidade": "Pelotas",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCTXnHyLcL5cjTiNazWvqxOdpHNUwoaDOfg&s",
+      "descricao": "Localizado na zona rural de Pelotas, o Sítio do Vale Verde é o destino perfeito para quem deseja escapar da rotina e aproveitar a tranquilidade do campo. Oferece atividades como trilhas ecológicas, observação de aves e uma rica gastronomia rural, com destaque para os pratos à base de produtos frescos e locais. É um ótimo lugar para relaxar, praticar atividades ao ar livre e aproveitar a beleza natural da região.",
+      "tipo": [
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Trilhas",
+        "Gastronomia"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "m3h4",
+      "nome": "Estância do Lago",
+      "cidade": "Morro Redondo",
+      "foto": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/283740712.jpg?k=f040ef6d1ee259b963fd5ca6f89b9596d8218d47fbcf621c8a18cbd168cc5138&o=&hp=1",
+      "descricao": "A Estância do Lago, localizada em Morro Redondo, é um refúgio rural onde os visitantes podem desfrutar de atividades como pesca, caminhadas e passeios de barco no lago da propriedade. Com uma paisagem maravilhosa, ideal para quem deseja relaxar em contato com a natureza, a estância oferece ainda uma gastronomia local saborosa, com pratos típicos do Rio Grande do Sul.",
+      "tipo": [
+        "familia",
+        "casal"
+      ],
+      "dias": [
+        "2-3 dias"
+      ],
+      "oferece": [
+        "Atividades",
+        "Paisagens"
+      ],
+      "comentarios": [],
+      "favorito": true
+    },
+    {
+      "id": "5798",
+      "nome": "Propriedade Vida na Terra",
+      "cidade": "Canguçu",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTrRM1j4_lPKCi1zIXLaYzFRLLfiBCzqSAjw&s",
+      "descricao": "A propriedade Vida na Terra oferece a você a incrível oportunidade de conhecer e vivenciar as experiências e emoções de um sonho que teve seu início há trinta anos. Um homem apaixonado pelo campo chegava da plantação de tabaco, sem água, luz em sua antiga moradia, e rabiscava em um papel, seu sonho: uma plantação de frutas 100% orgânicas, que entrassem em harmonia com o meio ambiente, respeitando a diversidade de seres vivos presentes na natureza. Encontrando alguns obstáculos pelo percurso, encontrou também, o auxilio de familiares e amigos, que aliados à persistência e resistência de trinta anos, tornaram este sonho, a realidade de uma família. Agora, você pode fazer parte desta linda história de amor de um homem pela produção limpa e agroecologia. Na Propriedade Vida na Terra, toda fruta se transforma em um saboroso suco 100% orgânico, ou, em uma deliciosa geleia orgânica artesanal, e você pode realizar um percurso a pé ou, a trator, fazendo um tour por toda a extensão de 15 hectares da propriedade, conhecendo um dos pioneiros sistemas agroflorestais da região, pomares de frutas orgânicas, a criação de ovelhas, a vista da antiga moradia, e então, degustar do fruto mais saboroso desta história, o suco orgânico e as geleias Vida na Terra, alimentos limpos, saudáveis e livres de agrotóxico que são produzidos, envasados e comercializados pela própria família. Venha sonhar conosco, e alimente seu próprio sonho.",
+      "tipo": [
+        "casal",
+        "familia"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
         "gastronomia",
-        "trilha"
+        "atividade"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "f506",
+      "nome": "Vinícola Cárdenas",
+      "cidade": "Mariana Pimentel",
+      "foto": "https://39704.cdn.simplo7.net/static/39704/galeria/158838666220679.png",
+      "descricao": "Somos uma família com determinação e força em transformar sonhos em realidade, buscando os melhores frutos de um Terroir único e exclusivo.     Iniciamos o plantio de vinhas no município de Mariana Pimentel/RS em 2010 e lançamos nossos vinhos e espumantes boutique somente em 2018. Lotes realmente exclusivos que desafiam os paladares mais exigentes.",
+      "tipo": [
+        "casal",
+        "familia"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "gastronomia",
+        "cultura",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "7b33",
+      "nome": "Trilha das Pedras Abraçadas",
+      "cidade": "Sertão Santana",
+      "foto": "https://img1.wsimg.com/isteam/ip/4c3b8c3d-5aa9-4105-8c8a-963b0ee0ba44/WhatsApp%20Image%202024-04-23%20at%2014.05.55.jpeg/:/cr=t:0%25,l:8.37%25,w:74.81%25,h:100%25/rs=w:388,h:292,cg:true",
+      "descricao": " A subida é pontuada por enormes pedras, encimadas por imensas figueiras centenárias, cujo as raízes simplesmente abraçam as rochas, que são encontradas no trajeto, oferencendo aos visitantes anfiteatros naturais, excelente local para aventura e contemplação, já que no alto do morro o mirante natural oferece vista de 180 graus. ",
+      "tipo": [
+        "amigos",
+        "solo"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "trilha",
+        "cascata",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": true
+    },
+    {
+      "id": "2aef",
+      "nome": "Trilha da Pedra Grande",
+      "cidade": "Sertão Santana",
+      "foto": "https://img1.wsimg.com/isteam/ip/4c3b8c3d-5aa9-4105-8c8a-963b0ee0ba44/29%20-%2005.10.23.jpeg/:/cr=t:30.92%25,l:30.96%25,w:38.07%25,h:38.17%25/rs=w:388,h:292,cg:true,m",
+      "descricao": " O trajeto inicial leva a um paredão de granito de aproximadamente 70 m de altura, em seguida encontramos a casa de pedra e então descemos até um pequeno Arroio que nos proporciona algumas pequenas cachoeiras, local relaxante e beleza ímpar. ",
+      "tipo": [
+        "amigos",
+        "solo"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "trilha",
+        "cascata",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "2851",
+      "nome": "Butiazal de Tapes",
+      "cidade": "Tapes",
+      "foto": "data:image/jpeg;base64,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",
+      "descricao": "A grande fonte de inspiração das essências é o Butiazal – um santuário exótico da natureza – localizado no município de Tapes – RS, Brasil. Este Butiazal parece estar deslocado do cenário do Rio Grande do Sul, como “uma terra estranha”. A vegetação lembra um lugar de clima tropical e é composta prioritariamente de butiás permeados de cactos. Em alguns pontos também encontramos árvores nativas como guajuviras e figueiras. Nos pés de butiás temos, vivendo em bela harmonia, samambaias, bromélias e orquídeas nativas. No verão, do solo arenoso, parece brotar um calor senegalês.",
+      "tipo": [
+        "familia"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "descanso",
+        "atividade",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": true
+    },
+    {
+      "id": "7d71",
+      "nome": "Parque Stone Land",
+      "cidade": "Pelotas",
+      "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzTwEkE3MXLUFyxZ0QHhmsPIckRKfFyOgV5Q&s",
+      "descricao": "O Parque Stone Land nasceu dos sonhos de uma família, de trazer experiências junto ao turismo rural e de natureza, proporcionando o convívio entre todos. Com momentos únicos de lazer e alegria, através de desafios e muita adrenalina com seus brinquedos de aventura e uma gastronomia típica colonial que pode ser consumida à sombra de pinheiros pelos gramados verdejantes. Além de trilhas e passeios que levam ao mirante onde é possível observar a belíssima imagem de Pelotas e litoral, que à tardinha traz um pôr do sol de tirar o fôlego, e nos mostra a espetacular natureza da Serra dos Tapes e rende registros que ficam em nossa memória para sempre.",
+      "tipo": [
+        "casal",
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "gastronomia",
+        "atividade",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": true
+    },
+    {
+      "id": "428d",
+      "nome": "Vinícola Nardello",
+      "cidade": "Morro Redondo",
+      "foto": "https://www.travelterapia.com.br/wp-content/uploads/2021/02/vinicola-nardello.jpeg",
+      "descricao": "A propriedade chama atenção pela amplitude e pela vasta área verde, com árvores, sombra, um laguinho, vários banquinhos para sentar e até um balanço para tirar fotos em meio à natureza.  Aproveitamos o dia de sol da nossa visita e fizemos um piquenique embaixo de uma das árvores do local. O espaço é ótimo para curtir a natureza com muita paz e tranquilidade!  O piquenique vendido na vinícola tem salame, queijo, pão caseiro, geleias, suco de uva, bolachas e uma porção de roda de carreta, um pão frito que é tradicional da região. Uma delícia!",
+      "tipo": [
+        "casal",
+        "familia",
+        "amigos"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "descanso",
+        "gastronomia",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "764c",
+      "nome": "Espaço Ecoar",
+      "cidade": "Morro Redondo",
+      "foto": "https://www.travelterapia.com.br/wp-content/uploads/2021/02/espaco-ecoar.jpeg",
+      "descricao": "Um lugar que une energia, misticismo, natureza e tranquilidade. Assim é o Espaço Ecoar, um empreendimento imerso na natureza, com espaço para contemplação, trilha, venda de suculentas e muitas paisagens naturais.  O espaço foi criado pela artista plástica Carla Thiel e existe desde 2017. O lugar onde hoje existe o Ecoar pertence à família de Carla.",
+      "tipo": [
+        "casal",
+        "familia"
+      ],
+      "dias": [
+        "1 dia"
+      ],
+      "oferece": [
+        "descanso",
+        "gastronomia",
+        "atividade",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "eb28",
+      "nome": "Sítio Sonho Meu",
+      "cidade": "Morro Redondo",
+      "foto": "https://www.travelterapia.com.br/wp-content/uploads/2021/02/jardim-dos-sonhos.jpeg",
+      "descricao": "Fomos muito bem recebidas pelo proprietário, o seu Cilon, um ex-professor universitário apaixonado pelo próprio sítio. Ele nos mostrou com orgulho o lugar que administra juntamente com a esposa.  Além da visitação, o sítio funciona como pousada – que acomoda um casal –  e tem espaço para trilha, tudo com agendamento prévio.   A trilha é temática e é chamada de Caminho de São Francisco, com  um percurso onde os peregrinos encontram 15 frases da oração do Santo. No final da caminhada, um sino é tocado para simbolizar o fim do percurso. ",
+      "tipo": [
+        "casal",
+        "familia"
+      ],
+      "dias": [
+        "1 dia",
+        "2-3 dias"
+      ],
+      "oferece": [
+        "gastronomia",
+        "atividade",
+        "trilha",
+        "paisagem"
+      ],
+      "comentarios": [],
+      "favorito": false
+    },
+    {
+      "id": "c147",
+      "nome": "Pousada da Cachoeira",
+      "cidade": "Morro Redondo",
+      "foto": "https://www.travelterapia.com.br/wp-content/uploads/2021/02/pousada-da-cachoeira.jpeg",
+      "descricao": "Com 10 casinhas charmosas para hospedagem, a Pousada tem um lindo e amplo espaço em meio à natureza, com churrasqueiras, parquinho, um lago e claro, uma cachoeira que abrilhanta toda a paisagem do local.  As acomodações comportam até 8 pessoas e custam a partir de R$ 250 (fevereiro/2021). Os apartamentos contam com banheiro, cozinha, sala com TV, lareira, ar condicionado e churrasqueira.",
+      "tipo": [
+        "casal",
+        "amigos"
+      ],
+      "dias": [
+        "2-3 dias",
+        "5-7 dias"
+      ],
+      "oferece": [
+        "descanso",
+        "cascata",
+        "paisagem"
       ],
       "comentarios": [],
       "favorito": false
